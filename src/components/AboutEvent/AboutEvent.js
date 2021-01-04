@@ -6,19 +6,23 @@ import StyledAbout from './styled/styled'
 const AboutEvent = () => {
     return (
         <StyledAbout >
-            <img className="mech-wins" src={mech} alt='mech-wins'></img>
+            <div className="img_wrapper">
+                <img className="mech-wins" src={mech} alt='mech-wins'></img>
+            </div>
             <div className='event-desc'>
-                <Heading className="header-reg" size={700}>HEADER</Heading>
+                <Heading className="header-reg" size={700}>OUR CAPTAINS</Heading>
                 <Text className="text-reg" size={400}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Nunc consequat eros ac nisi ullamcorper venenatis. 
-                    Ut mauris elit, vestibulum quis scelerisque nec, lacinia a magna. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                    Nam sit amet nulla eget turpis tristique mattis vel ac lectus. Proin tristique a nisi ac convallis. 
-                    Nam lacinia dolor sed ligula lacinia, vitae lobortis odio auctor. Mauris varius vitae diam dapibus accumsan.
-                    In finibus sem nibh, eu convallis magna eleifend non. Praesent feugiat eros vel cursus sagittis. 
-                    Sed sed tortor laoreet massa ultrices congue at a lorem. Nam et mauris eu ante efficitur gravida. 
-                    Duis sapien elit, ullamcorper a nisl a, finibus rhoncus risus. Aliquam erat volutpat.
+                Up to 10 people are selected by their department’s VP Internal to be Captains for their team. 
+                As of E-Week 2020, each team has had to appoint a Rookie Captain, an Equity Captain as well as a Points Captain 
+                who have more specific roles tailored to their position. However, all Captains are in charge of:
+                <ul>
+                    <li>Creating and facilitating new ways to hype up their team and making  sure as many people participate and feel included!</li>
+                    <li>Communicating  with the coords</li>
+                    <li>Communicating with their team</li>
+                    <li>Recruiting people to their team</li>
+                    <li>Making sure the team environment is inclusive and equitable!!!</li>
+                    <li>Promoting the Captains Package (a document with everything they need to know about E-Week that year)</li>
+                </ul>
                 </Text>
             </div>
         </StyledAbout>
