@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const StyledFooter = styled.div`
     padding: 0px;    
     width: 100%;
-    height: 150px;
     text-align: center;
     background-color: #173f5c;
     display: block;
@@ -29,6 +28,13 @@ const StyledFooter = styled.div`
     .stars {
         padding: 10px;
         width: 100px;
+        margin: auto;
+        display: block;
+    }
+
+    .land-awknowledgement {
+        color: white;
+        margin: 10px;
     }
 
 `

@@ -11,8 +11,11 @@ const Sponsors = () => {
         <StyledSponsors>
             <div className="sponsor-intro">
             <Heading className='sponsor-intro-heading' size={900}>Every year, E-Week relies on help from our generous sponsors.</Heading>
-            <Text className='sponsor-intro-text' size={400}>Without the following organizations, our event would not be 
-            possible. Thank you endlessly for your partnership and support.</Text>
+            <Text className='sponsor-intro-text' size={400}>Each year, the EUS depends on support from the local community to make this event possible. 
+            Through our sponsorship program, we offer organizations the change to be a part of the most creative E-Week yet, improving their brand visibility and image among the student 
+            population? Interested? Check out <a href="https://drive.google.com/file/d/14iRCzMIOKJKONz0EtpcmB9s5AM-7Ii1F/view?usp=sharing">our package</a>.
+
+</Text>
             </div>
             <div className="sponsor-logos">
                 <img className="eus" src={euslogo} alt="Engineering Undergraduate Society of Mcgill University"></img>
